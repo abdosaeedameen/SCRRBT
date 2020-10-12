@@ -1,5 +1,5 @@
-local username = "0"
-local password = "0"
+local username = "@abdulrhmansa"
+local password = "abood7"
 local prompt = gg.prompt({"👤Username","🔑Password"},nil,{"text","text",}) or {"","",}
 if prompt[1] ~= username then
 while(true) do
